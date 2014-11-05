@@ -33,7 +33,7 @@ public class CondicionalSwitch {
                 double b = Double.parseDouble(dato1);
                 String dato2 = JOptionPane.showInputDialog("Introducir Altura");
                 double a = Double.parseDouble(dato2);
-                JOptionPane.showMessageDialog(null, "Area del Triángulo= " + (b * a));
+                JOptionPane.showMessageDialog(null, "Area del Triángulo= " + (b * a)/2);
                 break;
             case "3":
                 String dato3 = JOptionPane.showInputDialog("Introducir Radio");
